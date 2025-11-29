@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI FixWizard — Optymalizacja sprzętu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>AI FixWizard — Twoja inteligentna optymalizacja sprzętu</h1>
+    <p>Wklej swój sprzęt lub opis problemu — otrzymaj zestaw gotowych kroków do poprawy wydajności.</p>
+  </header>
+
+  <main class="container">
+    <label for="input">Wklej sprzęt / opis problemu:</label>
+    <textarea id="input" rows="4" placeholder="np. i5-10400, GTX 1660, 16GB RAM, wysokie temperatury..."></textarea>
+
+    <button id="run">Generuj porady</button>
+
+    <section id="output" class="output">
+      <h2>Wynik:</h2>
+      <div id="result">
+        Kliknij „Generuj porady”, by zobaczyć wynik.
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>© 2025 — AI FixWizard</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
